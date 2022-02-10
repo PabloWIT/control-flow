@@ -62,4 +62,17 @@ fun stringContains(str : String){
     //    - contains the letter C, print the string and say it contains C.
     //    - is empty, inform the user that it is empty.
     //    - otherwise print the string and say it doesn't contain A, B or C.
+    if(!str.contains('A') && !str.contains('B') && !str.contains('C')) {
+        println("String $str doesn't contain A, B, or C")
+    } else {
+        if(str.contains('A')) {
+            println("String $str contains letter A")
+        }
+        if(str.contains('B')) {
+            println("String $str contains letter B")
+        }
+        if(str.contains('C')) {
+            println("String $str contains letter C")
+        }
+    }
 }
